@@ -1,0 +1,141 @@
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.item-shop{
+    width: 10%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 0 130px;
+    max-width: 70px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: pink; */
+    justify-content: center;
+    display: inline-block;
+    
+}
+
+.item-shop img{
+    width: 60px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.gambar-gede{
+    padding: 20px;
+    /* background-color: lightblue; */
+}
+
+.gambar-gede img{
+    width: 600px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.shop{
+    margin-top: 60px;
+    /* background-color: chocolate; */
+    padding-right: 20px;
+    /* padding-left: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shop .bs-mascara_1{
+    font-size: 35px;
+    font-variant: bold;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.shop .bs-mascara_2{
+    font-size: 20px;
+    font-variant: normal;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.shop .bs-mascara_3{
+    font-size: 10px;
+    font-variant: normal;
+    letter-spacing: 2px;
+    color: rgb(81, 81, 81);
+}
+
+.shop .bs-mascara_4{
+    font-size: 10px;
+    font-variant: normal;
+    letter-spacing: 2px;
+    color: (81, 81, 81);
+}
+
+.black{
+    color:  rgb(81, 81, 81);
+    width: 150px; 
+    height: 30px;
+    margin: 20px;
+}
+
+.favorite{
+    width: 53px; 
+    height: 35px;
+    border-radius: 40px;  
+}
+
+.cart{
+    width: 300px; 
+    height: 35px;
+    border-radius: 40px;
+    background-color: brown;
+}
+/* .product-shopping {
+    background-color: aqua;
+} 
+
+.produk-shopping{
+    display: block;
+    flex-wrap: wrap;
+    max-height: 300px;
+    width: auto;
+    padding: 0 auto 0 auto;
+    margin: auto;
+    background-color: aqua;
+}
+
+
+
+.produk-shopping {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; 
+}
+
+.produk-shopping img {
+    max-width: 30%; 
+    max-height: 300px;
+    
+    margin: 5px;
+} 
+
+.products-shopping{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    max-width:30% auto;
+    flex-wrap: wrap;
+    background-color: #0073e6;
+}
+
+.product-shopping img {
+    display: inline-block;
+    max-width: 30%; 
+    max-height: 300px;
+    
+    margin: 5px;
+}  */

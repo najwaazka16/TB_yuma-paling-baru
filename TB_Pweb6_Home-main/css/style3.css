@@ -1,0 +1,46 @@
+/* Styles for Account Page */
+.account-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.account-container {
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.account-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.order-history, .account-center, .account-details {
+    flex: 1;
+    min-width: 250px;
+}
+
+.account-center {
+    text-align: center;
+}
+
+.account-center h2 {
+    margin-bottom: 10px;
+}
+
+.account-center a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.order-history h2, .account-details h2 {
+    margin-bottom: 10px;
+}
+

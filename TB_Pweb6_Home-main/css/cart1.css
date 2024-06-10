@@ -1,0 +1,123 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono|Muli'); 
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.cart-container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.progress {
+    width: 100px;
+    height: 10px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.progress::before {
+    content: '';
+    position: absolute;
+    height: 10px;
+    background-color: #4caf50;
+    width: 25%; /* This should be dynamic based on progress */
+}
+
+.progress-text {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.cart-items {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-price {
+    color: #888;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.cart-summary {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.checkout-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*bagian add product*/
+.container-product {
+    margin-top: 150px;
+    margin-left: 325px;
+    width: 50%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-product h3{
+    text-align: center;
+    color: #2f2f2f;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="text"], form input[type="file"] {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+form input[type="text"] {
+    width: calc(100% - 22px); /* Subtracting padding */
+}
+
+form input[type="submit"] {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*bagian view product*/
+table {
+    margin-top: 100px;
+    max-width: 70%;
+    margin-left: 200px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #aeaeae;
+    color: #fff;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    text-align: center;
+}
+

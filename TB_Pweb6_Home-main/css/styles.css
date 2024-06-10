@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.new-arrival {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.new-arrival h2 {
+    white-space: pre;
+    text-align: center;
+    padding: 50px;
+    left: 100%;
+    margin-top: 25px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.products-new {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+    left: 100%;
+    transform: translateX(0%);
+}
+
+.product-new {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.product-new img {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 2px;
+}
+
+.product .price {
+    margin-top: 10px;
+}
+
+.product .price del {
+    color: #888;
+    margin-right: 5px;
+}
+
+.sale {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    font-size: 0.8em;
+}
+.view-all {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.view-all:hover {
+    background-color: #333;
+}
